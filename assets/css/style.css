@@ -1,0 +1,208 @@
+/*          GENERAL      */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    /* background-color: #fedaa8; */
+    background-image: url("/assets/images/bois.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    /* overflow:hidden; */
+    font-family: "Protest Riot", sans-serif;
+}
+
+.marron1 {
+    background-color: #b87333;
+}
+
+.marron-blur {
+    background-color: #b873338f;
+    height: 100vh;
+}
+
+.beige1 {
+    background-color: #fedaa8;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+/*          INDEX        */
+.img-photo {
+    width: 70vh;
+}
+
+.corps-photo {
+    padding:3%;
+    border-radius: 15PX;
+    width: 80vh;
+}
+
+.corps-pseudo {
+    padding:3%;
+    border-radius: 15PX;
+    width: 40vh;
+}
+
+.logo-maison {
+    height: 200px;
+    display: block;
+    margin: auto;
+    position: top;
+}
+
+.nav-link {
+    font-size: 50px;
+    text-decoration: none;
+    color:black;
+}
+
+.greetings {
+    color:black;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.this-is-a-place {
+    text-align: justify;
+    padding: 10px;
+    margin-left: 5px;
+    line-height: 220%;
+    color:black;
+}
+
+/*          MAP          */
+
+.logo-house{
+    height: 50px;
+    margin-left: 50px;
+}
+
+.img-map-forest {
+    border: solid;
+    border-color: #b87333;
+    border-width: 10px;
+    height:38%;
+    width: 99%;
+    margin-left: 1%;
+}
+
+.img-map-mountain {
+    border: solid;
+    border-color: #b87333;
+    border-width: 10px;
+    height:38%;
+    width: 99%;
+    margin-left: 1%;
+}
+
+.img-map-aquarium {
+    border: solid;
+    border-color: #b87333;
+    border-width: 10px;
+    height:38%;
+    width: 99%;
+}
+
+.img-map-savane {
+    border: solid;
+    border-color: #b87333;
+    border-width: 10px;
+    height:38%;
+    width: 99%;
+}
+
+
+/*          FOREST       */
+.img-forest {
+    border: solid;
+    border-color: #b87333;
+    border-width: 19px;
+    display: block;
+    width: 167vh;
+    z-index: -1;
+    position: absolute;
+}
+
+.card {
+    /* position: absolute; */
+    z-index: 999;
+    background-color:#fedaa8a3;
+}
+
+.corps-forest {
+    position:absolute;
+}
+
+
+/*          MOUNTAIN        */
+.img-mountain {
+    border: solid;
+    border-color: #b87333;
+    border-width: 22px;
+    display: block;
+    width: 167vh;
+    height: 95vh;
+}
+
+.img-eagle {
+    position: absolute;
+    z-index: 999;
+    height:100px;
+}
+
+.corps-mountain {
+    position:absolute;
+}
+
+
+/*          AQUARIUM         */
+.img-aquarium {
+    border: solid;
+    border-color: #b87333;
+    border-width: 22px;
+    display: block;
+    width: 167vh;
+    height: 95vh;
+    z-index: -1;
+    position: absolute;
+}
+
+.img-fish {
+    position: absolute;
+    z-index: 999;
+}
+
+.corps-aquarium {
+    position:absolute;
+}
+
+.marge {
+    margin-top:60%;
+    margin-left: 50px;
+}
+
+
+/*          SAVANE        */
+.img-savane {
+    border: solid;
+    border-color: #b87333;
+    border-width: 16px;
+    display: block;
+    width: 167vh;
+}
+
+.img-tigre {
+    position: absolute;
+    z-index: 999;
+}
+
+.corps-savane {
+    position:absolute;
+}
